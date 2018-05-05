@@ -161,8 +161,9 @@ object:hover {
     -o-transform: scale(0.6, 0.6);
     transform: scale(0.6, 0.6); } }
 
+  
 .cube > div > div.cube-image1 {
-  background: url(http://magicard.blogspot.es/cache/media/files/01/615/908/2018/04/1524773803_cubo350-06.jpg);
+  background: url(http://magicard.blogspot.es/cache/media/files/01/615/908/2018/04/1524863622_cubo-450-05.jpg);
   background-size: auto 100%;
   width: 450px;
   height: 450px;
@@ -180,8 +181,9 @@ object:hover {
   -ms-transition: color 600ms;
   -o-transition: color 600ms;
   transition: color 600ms; }
+  
 .cube > div > div.cube-image2 {
-  background: url(http://magicard.blogspot.es/cache/media/files/01/615/908/2018/04/1524774927_cubo350-04.jpg);
+  background: url(https://media.giphy.com/media/2hgAztlL2liHK07fRd/giphy.gif);
   background-size: auto 100%;
   width: 450px;
   height: 450px;
@@ -199,8 +201,9 @@ object:hover {
   -ms-transition: color 600ms;
   -o-transition: color 600ms;
   transition: color 600ms; }
+  
 .cube > div > div.cube-image3 {
-  background: url(http://magicard.blogspot.es/cache/media/files/01/615/908/2018/04/1524773698_cubo350-03.jpg);
+  background: url(https://media.giphy.com/media/1wpOATwS4SA6Svx83g/giphy.gif);
   background-size: auto 100%;
   width: 450px;
   height: 450px;
@@ -218,8 +221,9 @@ object:hover {
   -ms-transition: color 600ms;
   -o-transition: color 600ms;
   transition: color 600ms; }
+  
 .cube > div > div.cube-image4 {
-  background: url(http://magicard.blogspot.es/cache/media/files/01/615/908/2018/04/1524773676_cubo350-02.jpg);
+  background: url(https://media.giphy.com/media/4HglbfKnaIvf7NXt1b/giphy.gif);
   background-size: auto 100%;
   width: 450px;
   height: 450px;
@@ -237,8 +241,9 @@ object:hover {
   -ms-transition: color 600ms;
   -o-transition: color 600ms;
   transition: color 600ms; }
+  
 .cube > div > div.cube-image5 {
-  background: url(http://magicard.blogspot.es/cache/media/files/01/615/908/2018/04/1524773657_cubo350-01.jpg);
+  background: url(https://media.giphy.com/media/5brQJZRgCPD5lPokJS/giphy.gif);
   background-size: auto 100%;
   width: 450px;
   height: 450px;
@@ -256,8 +261,9 @@ object:hover {
   -ms-transition: color 600ms;
   -o-transition: color 600ms;
   transition: color 600ms; }
+
 .cube > div > div.cube-image6 {
-  background: url(http://magicard.blogspot.es/media/cache/resolve/media/files/01/615/908/2018/04/1524774775_cubo350-05.jpg);
+  background: url(https://media.giphy.com/media/69v2Y3Hyot3cRVaPsv/giphy.gif);
   background-size: auto 100%;
   width: 450px;
   height: 450px;
