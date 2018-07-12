@@ -284,7 +284,7 @@ Viewport.prototype.animate = function() {
 var viewport = new Viewport({
   element: document.getElementsByClassName('cube')[0],
   fps: 20,
-  sensivity: 1,
+  sensivity: 0.01,
   sensivityFade: .93,
   speed: 2,
   touchSensivity: 0.01
