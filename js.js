@@ -286,7 +286,7 @@ var viewport = new Viewport({
   fps: 20,
   sensivity: 0.01,
   sensivityFade: .93,
-  speed: 2,
+  speed: 20,
   touchSensivity: 0.01
 });
 
