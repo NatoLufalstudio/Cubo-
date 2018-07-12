@@ -287,7 +287,7 @@ var viewport = new Viewport({
   sensivity: .01,
   sensivityFade: .93,
   speed: 2,
-  touchSensivity: .01
+  touchSensivity: 1.5
 });
 
 function Cube(data) {
