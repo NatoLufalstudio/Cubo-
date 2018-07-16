@@ -100,11 +100,11 @@ body {
   cursor: pointer; }
 
 .cube > div:first-child {
-  -webkit-transform: rotateX(-90deg) translateZ(225px);
-  -moz-transform: rotateX(-90deg) translateZ(225px);
-  -ms-transform: rotateX(-90deg) translateZ(225px);
-  -o-transform: rotateX(-90deg) translateZ(225px);
-  transform: rotateX(-90deg) translateZ(225px);
+  -webkit-transform: rotateX(90deg) translateZ(225px);
+  -moz-transform: rotateX(90deg) translateZ(225px);
+  -ms-transform: rotateX(90deg) translateZ(225px);
+  -o-transform: rotateX(90deg) translateZ(225px);
+  transform: rotateX(90deg) translateZ(225px);
   outline: 1px solid transparent; }
 
 .cube > div:nth-child(2) {
