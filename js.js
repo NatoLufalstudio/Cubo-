@@ -319,7 +319,7 @@ Cube.prototype.rotateSides = function() {
 }
 Cube.prototype.upsideDown = function(obj) {
 
-  var deg = (obj.upsideDown == true) ? '180deg' : '0deg';
+  var deg = (obj.upsideDown == true) ? '360deg' : '0deg';
   var i = 5;
 
   while(i > 0 && --i) {
