@@ -140,11 +140,11 @@ body {
   outline: 1px solid transparent; }
 
 .cube > div:nth-child(6) {
-  -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(225px);
-  -moz-transform: rotateX(-90deg) rotate(180deg) translateZ(225px);
-  -ms-transform: rotateX(-90deg) rotate(180deg) translateZ(225px);
-  -o-transform: rotateX(-90deg) rotate(180deg) translateZ(225px);
-  transform: rotateX(-90deg) rotate(180deg) translateZ(225px);
+  -webkit-transform: rotate(180deg) translateZ(225px);
+  -moz-transform:  rotate(180deg) translateZ(225px);
+  -ms-transform:  rotate(180deg) translateZ(225px);
+  -o-transform:  rotate(180deg) translateZ(225px);
+  transform:  rotate(180deg) translateZ(225px);
   outline: 1px solid transparent; }
 
 object {
