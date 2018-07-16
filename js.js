@@ -309,12 +309,12 @@ function Cube(data) {
 }
 Cube.prototype.rotateSides = function() {
   var viewport = this.viewport;
-  if(viewport.positionY > 90 && viewport.positionY < 270) {
+  if(viewport.positionY > 180 && viewport.positionY < 270) {
     this.sides[0].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + (viewport.positionX + viewport.torqueX) + 'deg)';
-    this.sides[5].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + -(viewport.positionX + 180 + viewport.torqueX) + 'deg)';
+    this.sides[5].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + -(viewport.positionX + 360 + viewport.torqueX) + 'deg)';
   } else {
     this.sides[0].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + (viewport.positionX - viewport.torqueX) + 'deg)';
-    this.sides[5].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + -(viewport.positionX + 180 - viewport.torqueX) + 'deg)';
+    this.sides[5].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + -(viewport.positionX + 360 - viewport.torqueX) + 'deg)';
   }
 }
 Cube.prototype.upsideDown = function(obj) {
